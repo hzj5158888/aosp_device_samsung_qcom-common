@@ -26,8 +26,12 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 # Graphics
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
+TARGET_USES_NEW_ION_API :=true
+
 # Qualcomm support
+TARGET_USES_QCOM_BSP := true
 BOARD_USES_QCOM_HARDWARE := true
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/qcom-common
